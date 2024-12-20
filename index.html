@@ -10,14 +10,56 @@
       crossorigin="anonymous"
       defer
     ></script>
+    <script src="./script.js" defer></script>
   </head>
   <body>
     <header>
-      <i class="fa-solid fa-bars hamburger-icon fa-xl"></i
-      ><img src="./app-logo.jpg" alt="app logo" class="app-logo" />
+      <button class="hamburger-button">
+        <i class="fa-solid fa-bars hamburger-icon fa-xl"></i>
+      </button>
+      <img src="./app-logo.jpg" alt="app logo" class="app-logo" />
       <div class="separator"></div>
       <i class="fa-solid fa-magnifying-glass fa-xl search-icon"></i>
       <button class="create-account-button">Create Account</button>
+      <nav class="side-nav hidden">
+        <button class="close-button">
+          <i class="fa-solid fa-xmark fa-xl"></i>
+        </button>
+        <h1>Community App</h1>
+        <div class="filler-text">
+          <p class="bold-filler-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+          <p class="normal-filler-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+            imperdiet sapien vel lacus consectetur lobortis.
+          </p>
+          <div class="buttons">
+            <button class="create-account-button">Create Account</button>
+            <button class="login-button">Login</button>
+          </div>
+        </div>
+        <div class="links">
+          <a href="#"><i class="fa-solid fa-house"></i> link 1</a>
+          <a href="#"><i class="fa-solid fa-plus"></i> link 1</a>
+          <a href="#"><i class="fa-solid fa-microphone"></i> link 1</a>
+          <a href="#"><i class="fa-solid fa-video"></i> link 1</a>
+          <a href="#"><i class="fa-solid fa-tag"></i> link 1</a>
+          <a href="#"><i class="fa-solid fa-lightbulb"></i> link 1</a>
+          <a href="#"><i class="fa-solid fa-house"></i> link 1</a>
+          <a href="#"><i class="fa-solid fa-plus"></i> link 1</a>
+          <a href="#"><i class="fa-solid fa-microphone"></i> link 1</a>
+          <a href="#"><i class="fa-solid fa-video"></i> link 1</a>
+          <a href="#"><i class="fa-solid fa-tag"></i> link 1</a>
+          <a href="#"><i class="fa-solid fa-lightbulb"></i> link 1</a>
+        </div>
+        <div class="social-links">
+          <i class="fa-brands fa-x-twitter fa-xl"></i
+          ><i class="fa-brands fa-facebook fa-xl"></i
+          ><i class="fa-brands fa-github fa-xl"></i>
+        </div>
+      </nav>
     </header>
+    <div class="dimmer"></div>
   </body>
 </html>
