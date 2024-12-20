@@ -6,7 +6,29 @@ header {
   background-color: white;
   width: 100vw;
   height: 56px;
+  display: flex;
+  flex-direction: row;
 }
 .hamburger-icon {
   margin: 2rem 1rem;
+}
+.app-logo {
+  height: 100%;
+}
+.separator {
+  flex-grow: 1;
+}
+.create-account-button {
+  border-width: 1px;
+  background-color: white;
+  border-style: solid;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 0 15px;
+  border-color: #3b49df;
+  color: #3b49df;
+  font-size: medium;
+}
+.search-icon {
+  margin: 1.8rem 0.5rem;
 }
