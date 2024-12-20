@@ -113,7 +113,7 @@ h1 {
   margin: 20px;
 }
 .section-navigation {
-  margin-top: 15px;
+  margin: 15px 0;
 }
 .section-navigation a {
   text-decoration: none;
@@ -124,4 +124,44 @@ h1 {
 .active-section {
   font-weight: bolder;
   color: black;
+}
+.article-banner {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.article-card {
+  background-color: white;
+  margin: 20px 0;
+}
+.column-flex {
+  display: flex;
+  flex-direction: column;
+}
+.row-flex {
+  display: flex;
+  flex-direction: row;
+}
+.user-image{
+  border-radius: 50%;
+  width: 32px;
+  margin: 10px;
+  object-fit: cover;
+}
+.box {
+  margin: 10px 10px 0 0;
+  color: rgba(0, 0, 0, 0.555);
+}
+h2 {
+  margin: 10px;
+  font-size: large;
+}
+.tags {
+  display: block;
+  margin-bottom: 20px;
+}.tags div {
+  display: inline;
+  width: 25%;
+  margin: 10px;
+  font-size: small;
 }
