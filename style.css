@@ -179,14 +179,18 @@ h2 {
 .search {
   display: none;
 }
+.app-logo-2 {
+  display: none;
+}
 @media only screen and (min-width: 768px) {
   body {
     position: static;
   }
   .side-nav {
     position: static;
-    width: 30%;
+    max-width: 30%;
     margin: 0;
+    overflow: hidden;
   }
   .dimmed {
     display: none;
@@ -208,13 +212,18 @@ h2 {
     display: none !important;
   }
   .search {
-    display: flex;
-    width: 40%;
+    flex-grow: 1;
     align-items: center;
     justify-content: center;
-    margin: auto;
     border: none;
     height: 80%;
     padding-left: 10px;
+    display: inline;
+    margin: auto;
+  }
+  .app-logo-2 {
+    display: inline;
+    height: 100px;
+    margin: 0 50px;
   }
 }
