@@ -173,3 +173,48 @@ h2 {
   margin: 10px;
   font-size: small;
 }
+.login-button-large-screen {
+  display: none;
+}
+.search {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  body {
+    position: static;
+  }
+  .side-nav {
+    position: static;
+    width: 30%;
+    margin: 0;
+  }
+  .dimmed {
+    display: none;
+  }
+  .section-navigation {
+    width: 20%;
+    margin: 0;
+  }
+  .close-button {
+    display: none;
+  }
+  .login-button-large-screen {
+    display: inline;
+    background-color: white;
+    border: none;
+    font-size: medium;
+  }
+  .search-icon {
+    display: none !important;
+  }
+  .search {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border: none;
+    height: 80%;
+    padding-left: 10px;
+  }
+}
